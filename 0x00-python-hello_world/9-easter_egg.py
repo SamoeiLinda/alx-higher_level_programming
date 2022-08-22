@@ -1,3 +1,3 @@
-#!/usr/bin/python3
-with contextlib.redirect_stdout(zen := io.StringIO()):
-    import this
+#!/usr/bin/pythoni3
+import this
+print()
