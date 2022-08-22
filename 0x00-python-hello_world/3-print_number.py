@@ -1,3 +1,3 @@
 #!/usr/bin/python3d
->>> number = 98
->>> f"{number} Battery street"
+= 98
+print("{:d} Battery street".format(number))
