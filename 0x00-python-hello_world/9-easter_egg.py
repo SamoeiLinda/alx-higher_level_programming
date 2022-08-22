@@ -1,7 +1,3 @@
 #!/usr/bin/python3
-import contextlib, io
-zen = io.StringIO()
-with contextlib.redirect_stdout(zen):
+with contextlib.redirect_stdout(zen := io.StringIO()):
     import this
-
-print(zen.getvalue())
